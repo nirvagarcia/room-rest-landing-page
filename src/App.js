@@ -1,5 +1,4 @@
 import './App.css';
-import Footer from './components/Footer';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Segments from './components/Segments';
@@ -11,8 +10,7 @@ function App() {
 
         <Navbar/>
         <Home/>
-        <Segments/>
-        <Footer/>
+        <Segments/>    
        
       </header>
     </div>
