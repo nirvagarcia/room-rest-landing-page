@@ -55,7 +55,7 @@ const Contact = () => {
                         }}
                     >
                         <a className="contact-card"
-                            href="https://wa.me/51986689120?text=Hola%20Nirvana!%20vine%20de%20tu%20portafolio"
+                            href="https://wa.me/51986689120?text=Hola%20Lambders!"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{textDecoration: 'none', color:'#575757'}}

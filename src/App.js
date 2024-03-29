@@ -1,4 +1,5 @@
 import './App.css';
+import Allies from './components/Allies';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -12,9 +13,10 @@ function App() {
       <header className="App-header">
 
         <Navbar/>
-        <Home/>
-        <Segments/>    
+        <Home/>      
         <Lambders/>
+        <Segments/>    
+        <Allies/>
         <Contact/>
        
         <Footer/>
