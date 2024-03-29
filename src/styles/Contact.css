@@ -29,6 +29,22 @@
     font-size: 1rem;   
 }
 
+.card-styles {
+    background: #efefef;
+    padding: 1rem 1.3rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.card-styles:hover {
+    background-color: #dcdcdc;
+    transition: all 0.2s;
+    transform: translateY(-5px);
+}
+
+
 @media only screen and (max-width: 950px) {  
     #contact {
         padding: 25%  0%;
@@ -82,7 +98,5 @@
     }
     .contact-cards {       
         display: none;
-    }
-   
- 
+    } 
 }

@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "../styles/Contact.css";
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import { Button, Snackbar } from "@mui/base";
-import MuiAlert from '@mui/material/Alert';
 import { Dialog, DialogActions, DialogContent, DialogTitle } from "@mui/material";
 import OutboundIcon from '@mui/icons-material/Outbound';
 
@@ -13,7 +10,6 @@ const Contact = () => {
     const [nombre, setNombre] = useState('');
     const [apellido, setApellido] = useState('');
     const [showNotification, setShowNotification] = useState(false);
-
 
     const handleEmailChange = (event) => {
         const inputEmail = event.target.value;
@@ -43,80 +39,46 @@ const Contact = () => {
         <div id="contact">            
             <div className="contact-container">
 
-                <div className="contact-cards">
-
-                    <div  
-                        style={{
-                            background: '#efefef',
-                            padding: '1rem 1.3rem',
-                            borderRadius: '2rem',
-                            cursor: 'pointer',
-                            textDecoration: 'none'
+                <div className="contact-cards" >
+                    <div 
+                        className={"card-styles"}
+                        onClick={() => {
+                            window.open("https://wa.me/51986689120?text=Hola%20Lambders!", "_blank");
                         }}
                     >
-                        <a className="contact-card"
-                            href="https://wa.me/51986689120?text=Hola%20Lambders!"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{textDecoration: 'none', color:'#575757'}}
-                        
-                        >
+                        <div className="contact-card" style={{textDecoration: 'none', color:'#575757'}} >
                             <div className="card-text">WhatsApp</div>
                             <div className="card-text">+51 986 689 120</div>
                             <img  style={{height: '1.2em', marginTop: '1rem'}} src="/assets/whatsapp.png" alt="WhatsApp" />
-                        </a>
+                        </div>
                     </div>
-
                     <p></p>
-
-                    <div  
-                        style={{
-                            background: '#efefef',
-                            padding: '1rem 1.3rem',
-                            borderRadius: '2rem',
-                            cursor: 'pointer',
-                            textDecoration: 'none'
+                    <div 
+                        className={"card-styles"}
+                        onClick={() => {
+                            window.open("mailto:nirvagarciav@gmail.com", "_blank");
                         }}
                     >
-                        <a className="contact-card"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="mailto:nirvagarciav@gmail.com"
-                            style={{textDecoration: 'none', color:'#575757'}}
-                        
-                        >
+                        <div className="contact-card" style={{textDecoration: 'none', color:'#575757'}} >
                             <div className="card-text">Email</div>
                             <div className="card-text">akira@lambders.com</div>
                             <img  style={{height: '1.2em', marginTop: '1rem'}} src="/assets/email.png" alt="WhatsApp" />
-                        </a>
+                        </div>
                     </div>
-                 
                     <p></p>
-                    
-                    <div  
-                        style={{
-                            background: '#efefef',
-                            padding: '1rem 1.3rem',
-                            borderRadius: '2rem',
-                            cursor: 'pointer',
-                            textDecoration: 'none'
+                    <div 
+                        className={"card-styles"}
+                        onClick={() => {
+                            window.open("https://github.com/CC238-Grupo2-WX61-Apps-Moviles", "_blank");
                         }}
                     >
-                        <a className="contact-card"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://github.com/CC238-Grupo2-WX61-Apps-Moviles"
-                            style={{textDecoration: 'none', color:'#575757'}}
-                        
-                        >
+                        <div className="contact-card" style={{textDecoration: 'none', color:'#575757'}} >
                             <div className="card-text">Github</div>
                             <div className="card-text">Lambders from UPC</div>
                             <img  style={{height: '1.2em', marginTop: '1rem'}} src="/assets/github.png" alt="WhatsApp" />
-                        </a>
+                        </div>
                     </div>
 
-                 
-                 
                 </div>
 
                 <div className="contact-text-inputs">

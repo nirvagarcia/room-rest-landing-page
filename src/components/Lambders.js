@@ -41,15 +41,19 @@ const Lambders = () => {
                </div>
 
                 <div className="lambders-right">
+
                     <div style={{ display: 'block', marginLeft: '2rem', justifyContent: 'center' }}>
                         <div className="lambders-title">Presentamos a 
                         <span style={{fontWeight: 'bolder', color: '#AA1D1D'}}> Lambders</span>
                         </div>
                         <div className="lambders-text">Startup peruano de tecnología y e-commerce, que acerca al increíble mundo asiático hasta tu hogar.</div>
-                        <div className="general-button">
-                            <p onClick={handleOpenDialog}>Ver fotos del Startup</p>
+
+                        <div className="general-button"  onClick={handleOpenDialog}>
+                            <p>Ver fotos del Startup</p>
                         </div>
+
                     </div>
+                    
                 </div>
 
             </div>
