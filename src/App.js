@@ -16,6 +16,7 @@ function App() {
         <Segments/>    
         <Lambders/>
         <Contact/>
+       
         <Footer/>
       
        

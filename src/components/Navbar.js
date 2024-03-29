@@ -6,8 +6,9 @@ import { IconButton } from "@mui/material";
 const Navbar = () => {
 const links = [
     { key: "lambders", text: "Startup" },
+    { key: "contact", text: "Contáctanos" },
     { key: "projects", text: "Akira" },
-    { key: "contact", text: "Contáctanos" }
+
 ];
 
 return (
