@@ -1,4 +1,5 @@
 import './App.css';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Lambders from './components/Lambders';
@@ -14,7 +15,9 @@ function App() {
         <Home/>
         <Segments/>    
         <Lambders/>
+        <Contact/>
         <Footer/>
+      
        
       </header>
     </div>
