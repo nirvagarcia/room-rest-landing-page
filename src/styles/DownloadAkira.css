@@ -1,0 +1,88 @@
+#downloadAkira{
+    padding: 8rem 0rem 3rem 0rem;    
+    cursor:default;
+    max-width: 1400px;   
+    box-sizing: border-box;  
+    align-items: center;
+    justify-content: center;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.downloadAkira-container {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+
+.download-img {
+    transition: all 0.2s;
+ 
+}
+
+.download-img img {
+    height: 30vw;
+}
+
+.download-img:hover {
+    transition: all 0.2s;
+    transform: translateY(-5px);
+}
+
+.buttons-download {  
+    display: flex;
+    gap: 1rem;    
+}
+
+.buttons-download img {
+    height: 4rem;
+    cursor: pointer;
+}
+
+.buttons-download2 {
+    display: none;
+}
+
+@media (max-width: 900px) {   
+   
+    .downloadAkira-container {
+        display: block;      
+    }    
+    .download-img {
+        padding-top: 1rem;          
+    }
+
+    .buttons-download {
+        display: none;      
+    }
+     
+    .download-img img {
+        height: 50vw;
+    }  
+
+    .buttons-download2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        padding-top: 1.3rem;
+    }
+
+    .buttons-download2 img {  
+        height: 8vw;
+    }   
+} 
+
+@media (max-width: 600px) {    
+    .buttons-download2 img {  
+        height: 13vw;
+    }   
+    .download-img img {
+        height: 90vw;
+    }  
+    .i p {
+        font-size: 5vw;
+    }
+} 

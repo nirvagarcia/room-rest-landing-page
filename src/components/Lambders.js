@@ -13,8 +13,7 @@ const Lambders = () => {
         'assets/carrusel-7.jpeg',    
         'assets/carrusel-2.jpeg',     
         'assets/carrusel-5.jpeg',
-        'assets/carrusel-4.jpeg',
-        'assets/carrusel-3.jpeg',
+        'assets/carrusel-4.jpeg',     
     ];
     const [open, setOpen] = useState(false);
 
