@@ -11,8 +11,11 @@ const links = [
 ];
 
 return (
+
     <div className="navbar">
+
         <div className="navbar-container">
+
             <a href="#home" className="home-icon">
                 <IconButton aria-label="home" style={{padding:'0rem'}}>
                 <HomeIcon sx={{ color: 'black' }} />
@@ -24,7 +27,10 @@ return (
                     {link.text}
                 </a>
             ))}
+            
         </div>
+
+
     </div>
 );
 }
