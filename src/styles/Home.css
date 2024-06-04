@@ -8,10 +8,10 @@
 }
 
 .home-container {
-  max-width: 800px;
+  max-width: 1400px;
   margin: 0 auto;
 
-}
+}  
 
 .home-avatar img {
   width: auto;
@@ -35,7 +35,7 @@
 }
 
 .home-desc {  
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 4% 20px 4%;
   color: var(--text)
 }
