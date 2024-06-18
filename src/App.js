@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Lambders from './components/Lambders';
 import Navbar from './components/Navbar';
 import Segments from './components/Segments';
+import VideoSection from './components/VideoSection';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Allies/>
        
         <DownloadAkira/>
+        <VideoSection/>
         <Contact/>
         <Footer/>
       
